@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>alfresco-repository</artifactId>
     <name>Alfresco Repository</name>
-    <version>6.39-SNAPSHOT</version>
+    <version>6.40-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <parent>
@@ -207,7 +207,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- Dependency on Alfresco patched version of Rhino available in artfifact.alfresco.com -->
         <dependency>
             <groupId>org.mozilla</groupId>
             <artifactId>rhino</artifactId>
